@@ -1,0 +1,151 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  color: hsl(210, 10%, 33%);
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+header {
+  background-image: url("./images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  padding: 80px 0 20px;
+  line-height: 60px;
+}
+
+.button-1 {
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 2em;
+  margin-right: 5px;
+  
+}
+
+.button-2 {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 2em;
+  margin-left: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #76d536;
+}
+
+main {
+  padding: 0 20px;
+  margin: 30px auto;
+  max-width: 100%;
+  width: 1200px;
+}
+
+.smaller-container {
+  padding-top: 60px;
+}
+
+.smaller-container p {
+  padding-top: 10px;
+}
+
+
+.flex-container {
+  display: flex;
+  padding-top: 70px;
+
+}
+
+.desktop-block {
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-top: 25px; 
+}
+
+
+.desktop-block h3 {
+  padding-top: 50px;
+}
+
+.desktop-block p {
+padding-top: 20px;
+}
+
+.devices-image {
+  padding-top: 50px;
+}
+
+ .icon-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  padding-top: 50px; 
+}
+
+.first-icon, .second-icon, .third-icon{
+  line-height: 30px; 
+}
+
+.icons-image {
+  padding-bottom: 15px;
+}
+
+.row-logos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8%;
+}
+
+.bottom-container {
+  padding-top: 10%;
+  line-height: 45px;
+}
+
+footer {
+  background-color: #f5f6f8;
+  margin-bottom: 0;
+  display: flex;
+  
+}
+
+.logo-footer {
+  width: 60px;
+}
+
+footer ul {
+  padding: 0;
+	list-style-type: none;
+}
+
+footer .links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  
+}
+
+footer .social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer ul a {
+	color: hsl(210, 10%, 33%);
+	text-decoration: none;
+}
+
+
+footer img {
+  width: 20px; height: auto;
+}
