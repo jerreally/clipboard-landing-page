@@ -110,15 +110,15 @@ padding-top: 20px;
 
 .row-logos {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding-top: 8%;
 }
 
-
 .bottom-container {
   padding-top: 10%;
   line-height: 45px;
-  overflow: hidden;
+
 }
 
 footer {
@@ -215,13 +215,20 @@ header h1,p {
   }
   .row-logos {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
-.company-logo {
-  width: 50%;
+  .company-logos {
+    max-width: 100%;
+    padding: 25px;
 }
-
+  
+  .bottom-container {
+    width: 90%;
+    padding-bottom: 20%;
+  }
+  
   footer {
     grid-template-columns: 1fr;
     grid-auto-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
